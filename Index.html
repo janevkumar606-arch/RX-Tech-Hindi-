@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080914">
+  <meta name="description" content="RX Tech Hindi पर AI Tools, मुफ्त AI वेबसाइट, हिंदी टेक ट्यूटोरियल और नई टेक्नोलॉजी की जानकारी पाएं।">
+  <title>RX Tech Hindi | AI Tools & Technology</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-icon">RX</span>
+      <span>RX Tech <b>Hindi</b></span>
+    </a>
+    <nav class="nav">
+      <a class="active" href="index.html">होम</a>
+      <a href="#tools">AI Tools</a>
+      <a href="#tutorials">ट्यूटोरियल</a>
+      <a href="about.html">हमारे बारे में</a>
+      <a href="contact.html">संपर्क</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-badge"><span class="live-dot"></span> YOUR HINDI TECH HUB</div>
+      <h1>AI की दुनिया अब<br>आपकी <span class="gradient-text">अपनी भाषा में</span></h1>
+      <p class="hero-text">
+        शानदार AI Tools खोजें, नई टेक्नोलॉजी सीखें और आसान हिंदी में
+        डिजिटल दुनिया की जानकारी पाएं।
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#tools">AI Tools देखें ↗</a>
+        <a class="btn btn-secondary" href="#tutorials">सीखना शुरू करें</a>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE THE FUTURE</p>
+          <h2>AI Tools <span class="gradient-text">Directory</span></h2>
+          <p class="muted">अपने काम के लिए सही AI टूल खोजें।</p>
+        </div>
+        <span class="count-badge" id="toolCount">12 Tools</span>
+      </div>
+
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="toolSearch" type="search"
+          placeholder="AI टूल खोजें... जैसे Image, Video, Chat"
+          aria-label="AI टूल खोजें">
+      </label>
+
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="all">सभी टूल</button>
+        <button class="filter" data-category="chat">AI Chat</button>
+        <button class="filter" data-category="image">Image</button>
+        <button class="filter" data-category="video">Video</button>
+        <button class="filter" data-category="audio">Audio</button>
+        <button class="filter" data-category="productivity">काम के टूल</button>
+      </div>
+
+      <div class="tool-grid" id="toolGrid">
+        <article class="tool-card" data-category="chat" data-search="chatgpt chatbot writing questions openai">
+          <div class="tool-top"><span class="tool-icon purple">✳</span><span class="tool-type">AI CHAT</span></div>
+          <h3>ChatGPT</h3><p>सवालों के जवाब, लेखन, आइडिया और कोडिंग में मदद।</p>
+          <a class="tool-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="chat" data-search="gemini google chatbot research writing">
+          <div class="tool-top"><span class="tool-icon blue">✦</span><span class="tool-type">AI CHAT</span></div>
+          <h3>Google Gemini</h3><p>जानकारी समझने, आइडिया और कई तरह के काम में मदद।</p>
+          <a class="tool-link" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="chat" data-search="claude ai writing chatbot analysis">
+          <div class="tool-top"><span class="tool-icon orange">✳</span><span class="tool-type">AI CHAT</span></div>
+          <h3>Claude</h3><p>लेखन, दस्तावेजों और विचारों पर काम करने वाला AI।</p>
+          <a class="tool-link" href="https://claude.ai/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="chat" data-search="perplexity search research answers sources">
+          <div class="tool-top"><span class="tool-icon green">⌕</span><span class="tool-type">AI SEARCH</span></div>
+          <h3>Perplexity</h3><p>वेब पर रिसर्च और स्रोतों के साथ जवाब खोजने में मदद।</p>
+          <a class="tool-link" href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="image" data-search="canva design poster thumbnail image graphics">
+          <div class="tool-top"><span class="tool-icon blue">▧</span><span class="tool-type">DESIGN</span></div>
+          <h3>Canva</h3><p>थंबनेल, पोस्टर, प्रेजेंटेशन और डिजाइन तैयार करें।</p>
+          <a class="tool-link" href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="image" data-search="adobe firefly ai image generation creative">
+          <div class="tool-top"><span class="tool-icon orange">✺</span><span class="tool-type">AI IMAGE</span></div>
+          <h3>Adobe Firefly</h3><p>AI से इमेज और क्रिएटिव डिजाइन बनाने के टूल।</p>
+          <a class="tool-link" href="https://firefly.adobe.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="image" data-search="remove bg background remover photo">
+          <div class="tool-top"><span class="tool-icon green">◉</span><span class="tool-type">PHOTO</span></div>
+          <h3>remove.bg</h3><p>फोटो का बैकग्राउंड हटाने के लिए उपयोगी टूल।</p>
+          <a class="tool-link" href="https://www.remove.bg/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="video" data-search="capcut video editor reels shorts editing">
+          <div class="tool-top"><span class="tool-icon purple">▶</span><span class="tool-type">VIDEO</span></div>
+          <h3>CapCut</h3><p>वीडियो एडिटिंग, शॉर्ट्स और सोशल मीडिया कंटेंट।</p>
+          <a class="tool-link" href="https://www.capcut.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="video" data-search="runway ai video generation editing">
+          <div class="tool-top"><span class="tool-icon blue">▷</span><span class="tool-type">AI VIDEO</span></div>
+          <h3>Runway</h3><p>AI वीडियो बनाने और वीडियो क्रिएशन के टूल।</p>
+          <a class="tool-link" href="https://runwayml.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="audio" data-search="suno music song generation ai audio">
+          <div class="tool-top"><span class="tool-icon orange">♫</span><span class="tool-type">AI MUSIC</span></div>
+          <h3>Suno</h3><p>AI की मदद से गाने और म्यूजिक बनाने का टूल।</p>
+          <a class="tool-link" href="https://suno.com/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="audio" data-search="elevenlabs voice text speech audio">
+          <div class="tool-top"><span class="tool-icon purple">◖</span><span class="tool-type">AI VOICE</span></div>
+          <h3>ElevenLabs</h3><p>AI वॉइस और टेक्स्ट-टू-स्पीच के टूल।</p>
+          <a class="tool-link" href="https://elevenlabs.io/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+
+        <article class="tool-card" data-category="productivity" data-search="hugging face models ai developer tools">
+          <div class="tool-top"><span class="tool-icon green">♧</span><span class="tool-type">AI PLATFORM</span></div>
+          <h3>Hugging Face</h3><p>AI मॉडल, डेमो और मशीन लर्निंग टूल एक्सप्लोर करें।</p>
+          <a class="tool-link" href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">टूल खोलें ↗</a>
+        </article>
+      </div>
+
+      <p class="empty-state" id="emptyState" hidden>कोई टूल नहीं मिला। दूसरा नाम या कैटेगरी आजमाएँ।</p>
+      <p class="small-note">नोट: कुछ टूल फ्री और पेड दोनों प्लान देते हैं। उपलब्धता और सुविधाएँ बदल सकती हैं।</p>
+    </section>
+
+    <section class="section tutorial-section" id="tutorials">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LEARN IN HINDI</p>
+          <h2>टेक्नोलॉजी <span class="gradient-text">सीखें</span></h2>
+          <p class="muted">शुरुआत करने वालों के लिए आसान गाइड।</p>
+        </div>
+      </div>
+
+      <div class="tutorial-grid">
+        <article class="tutorial-card">
+          <span class="tutorial-number">01 / AI BASICS</span>
+          <h3>AI क्या है?</h3>
+          <p>AI का मतलब और रोजमर्रा के कामों में इसका उपयोग समझें।</p>
+          <details><summary>गाइड पढ़ें</summary><p>AI यानी Artificial Intelligence। यह ऐसी तकनीक है जो लिखने, तस्वीर बनाने, जानकारी समझने और सवालों के जवाब देने जैसे कामों में मदद कर सकती है। परिणामों को जाँचना जरूरी है।</p></details>
+        </article>
+        <article class="tutorial-card">
+          <span class="tutorial-number">02 / PROMPTS</span>
+          <h3>AI से सही जवाब कैसे लें?</h3>
+          <p>अच्छा प्रॉम्प्ट लिखने का आसान तरीका सीखें।</p>
+          <details><summary>गाइड पढ़ें</summary><p>AI को अपना काम, जरूरी जानकारी, भाषा और आउटपुट का फॉर्मेट साफ-साफ बताएं। उदाहरण: “मोबाइल यूजर के लिए आसान हिंदी में पाँच स्टेप में समझाओ।”</p></details>
+        </article>
+        <article class="tutorial-card">
+          <span class="tutorial-number">03 / CONTENT</span>
+          <h3>YouTube वीडियो के लिए AI</h3>
+          <p>वीडियो आइडिया, स्क्रिप्ट और थंबनेल की योजना बनाएँ।</p>
+          <details><summary>गाइड पढ़ें</summary><p>पहले विषय चुनें, फिर AI से स्क्रिप्ट का ड्राफ्ट बनवाएँ। तथ्यों की जाँच करें, अपनी आवाज और विचार जोड़ें तथा इस्तेमाल किए गए मीडिया के अधिकारों का ध्यान रखें।</p></details>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <p class="eyebrow">RX TECH HINDI</p>
+      <h2>सीखते रहो। बनाते रहो।</h2>
+      <p>AI और टेक्नोलॉजी को आसान हिंदी में समझने की शुरुआत आज ही करें।</p>
+      <a class="btn btn-primary" href="about.html">हमारे बारे में जानें ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html"><span class="brand-icon">RX</span><span>RX Tech <b>Hindi</b></span></a>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>© <span id="year"></span> RX Tech Hindi. सभी अधिकार सुरक्षित।</p>
+    <p class="small-note">यह वेबसाइट स्वतंत्र जानकारी और सीखने के उद्देश्य से बनाई गई है।</p>
+  </footer>
+</body>
+                                  </html>
+                                  
